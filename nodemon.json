@@ -2,7 +2,7 @@
   "watch": ["src", "server.js"],
   "ext": "js,json,ts",
   "ignore": ["node_modules", "logs"],
-  "exec": "clear && dotenvx run -- node server.js",
+  "exec": "clear && node server.js",
   "env": {
     "NODE_ENV": "development",
     "PORT": 3000
